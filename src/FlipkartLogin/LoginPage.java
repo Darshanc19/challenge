@@ -19,6 +19,7 @@ public class LoginPage {
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("darshan");
 		driver.findElement(By.xpath("(//button[@type='submit'])[2]")).click();
 		Thread.sleep(2000);
+		system.out.println("newly added");
 		driver.close();
 		
 
